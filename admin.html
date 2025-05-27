@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LumaMind Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <div class="admin-container">
+    <aside class="sidebar">
+      <h2>LumaMind</h2>
+      <ul>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Manage Users</a></li>
+        <li><a href="#">Manage Therapists</a></li>
+        <li><a href="#">Manage Yoga Coaches</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <h1>Admin Panel – LumaMind</h1>
+        <p>Restricted Access – Admins Only</p>
+      </header>
+
+      <section class="dashboard">
+        <div class="card">
+          <h3>Total Users</h3>
+          <p id="usersCount">Loading...</p>
+        </div>
+        <div class="card">
+          <h3>Therapists</h3>
+          <p id="therapistsCount">Loading...</p>
+        </div>
+        <div class="card">
+          <h3>Yoga Coaches</h3>
+          <p id="coachesCount">Loading...</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
